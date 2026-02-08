@@ -58,3 +58,9 @@
 [submodule "01.workspace/svelte-kit/hams-stock"]
 	path = 01.workspace/svelte-kit/hams-stock
 	url = https://github.com/Young-Hyun-Ham/hams-stock.git
+[submodule "01.workspace/react/react-flow"]
+	path = 01.workspace/react/react-flow
+	url = https://github.com/Young-Hyun-Ham/react-flow.git
+[submodule "01.workspace/nextjs/clt-chatbot"]
+	path = 01.workspace/nextjs/clt-chatbot
+	url = https://github.com/Young-Hyun-Ham/clt-chatbot.git

@@ -16,6 +16,7 @@ $submodules = @(
   # ========================================================
   # 01.workspace / nextjs
   # ========================================================
+  @{ Path = "01.workspace/nextjs/clt-chatbot"; Url = "https://github.com/Young-Hyun-Ham/clt-chatbot.git" },
   @{ Path = "01.workspace/nextjs/hams-BAP"; Url = "https://github.com/Young-Hyun-Ham/hams-BAP.git" },
 
   # ========================================================
@@ -24,6 +25,11 @@ $submodules = @(
   @{ Path = "01.workspace/python/hams-chat-socket";       Url = "https://github.com/Young-Hyun-Ham/hams-chat-socket.git" },
   @{ Path = "01.workspace/python/hams-langGraph-backend"; Url = "https://github.com/Young-Hyun-Ham/hams-langGraph-backend.git" },
   @{ Path = "01.workspace/python/hams-stock-worker";      Url = "https://github.com/Young-Hyun-Ham/hams-stock-worker.git" },
+
+  # ========================================================
+  # 01.workspace / react
+  # ========================================================
+  @{ Path = "01.workspace/react/react-flow";      Url = "https://github.com/Young-Hyun-Ham/react-flow.git" },
 
   # ========================================================
   # 01.workspace / svelte-kit
