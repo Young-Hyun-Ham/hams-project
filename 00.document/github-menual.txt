@@ -1,0 +1,46 @@
+
+이미지에 표시된 Protect matching branches 섹션의 각 설정 항목은 저장소의 안정성을 유지하기 위한 핵심 보안 장치들입니다. 
+각 항목의 기능을 자세히 설명해 드릴게요.
+
+1. Protect matching branches (핵심 보호 설정)
+Require a pull request before merging:
+설명: 브랜치를 main에 합치기 전에 반드시 **Pull Request(PR)**를 생성해야 합니다.
+효과: 이 옵션을 켜면 main 브랜치에 직접적인 git push가 차단됩니다. 작업자는 별도의 브랜치에서 작업 후 PR을 올려야만 코드를 반영할 수 있습니다.
+
+Require status checks to pass before merging:
+설명: 머지하기 전 CI/CD 테스트(예: 유닛 테스트, 빌드 검사)가 성공했는지 확인합니다.
+효과: 테스트를 통과하지 못한 코드가 main에 합쳐져 전체 프로젝트가 깨지는 것을 방지합니다.
+
+Require conversation resolution before merging:
+설명: PR에서 발생한 모든 리뷰 댓글(Conversation)이 'Resolved' 상태여야 머지가 가능합니다.
+효과: 코드 리뷰 중 제기된 의문이나 수정 요청이 해결되지 않은 채 머지되는 것을 막습니다.
+
+Require signed commits:
+설명: 검증된 디지털 서명(GPG 등)이 포함된 커밋만 허용합니다.
+효과: 커밋 작성자가 실제 그 사람인지 확실히 보장하여 보안을 강화합니다.
+
+Require linear history:
+설명: Merge 커밋 대신 Rebase나 Squash 머지만 허용하여 커밋 이력을 한 줄로 관리합니다.
+효과: 깃 이력(History)이 복잡하게 꼬이는 것을 방지하고 깔끔하게 유지합니다.
+
+Require deployments to succeed before merging:
+설명: 특정 환경(예: 스테이징 서버)에 배포가 성공해야 머지를 허용합니다.
+
+Lock branch:
+설명: 브랜치를 '읽기 전용'으로 만듭니다.
+효과: 아무도 커밋을 push할 수 없게 되어 브랜치가 동결(Freeze)됩니다.
+
+Do not allow bypassing the above settings:
+설명: 위 규칙들을 **저장소 관리자(본인)**에게도 예외 없이 적용합니다.
+효과: 관리자의 실수로 인한 직접 푸시를 원천 차단합니다. 체크하지 않으면 관리자는 규칙을 무시하고 강제 푸시가 가능합니다.
+
+2. Rules applied to everyone (모든 사용자 공통 적용)
+두 번째 이미지에 있는 이 설정들은 관리자를 포함한 모든 사람의 권한을 제한합니다.
+
+Allow force pushes:
+설명: git push --force를 허용합니다.
+위험: 체크하면 기존 커밋 이력을 강제로 덮어쓸 수 있어 매우 위험합니다. 일반적으로는 체크 해제를 권장합니다.
+
+Allow deletions:
+설명: 보호된 브랜치(main 등)를 삭제할 수 있게 허용합니다.
+위험: 실수로 브랜치가 삭제되는 것을 막으려면 체크 해제 상태를 유지해야 합니다.
