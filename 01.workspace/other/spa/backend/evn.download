@@ -24,8 +24,7 @@ JWT_EXPIRES_IN=10 # 요구사항: 10분 유지
 NEXT_PUBLIC_API_BASE="http://localhost:3000" # 백엔드 자기 자신
 
 # 구글 OAuth2 설정
-# GOOGLE_CLIENT_ID=723010704041-d74f8je30apif8m6fl35mda6fpnlh4i0.apps.googleusercontent.com
-# GOOGLE_CLIENT_SECRET=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
+# GOOGLE_CLIENT_SECRET=GOCSPX-xxxx
 GOOGLE_CLIENT_ID=723010704041-2re1gs2g5lgel8sfi248oauka2mokft2.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=GOCSPX-xxxx
 GOOGLE_REFRESH_TOKEN=1//0gMXTTpZw37toCgYIARAAGBASNwF-xxxx
