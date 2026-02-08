@@ -55,3 +55,6 @@
 [submodule "99.reference/yt-assets"]
 	path = 99.reference/yt-assets
 	url = https://github.com/citizendev9c/yt-assets.git
+[submodule "01.workspace/svelte-kit/hams-stock"]
+	path = 01.workspace/svelte-kit/hams-stock
+	url = https://github.com/Young-Hyun-Ham/hams-stock.git
