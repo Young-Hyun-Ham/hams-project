@@ -1,0 +1,57 @@
+[submodule "01.workspace/nextjs/hams-BAP"]
+	path = 01.workspace/nextjs/hams-BAP
+	url = https://github.com/Young-Hyun-Ham/hams-BAP.git
+[submodule "01.workspace/python/hams-chat-socket"]
+	path = 01.workspace/python/hams-chat-socket
+	url = https://github.com/Young-Hyun-Ham/hams-chat-socket.git
+[submodule "01.workspace/python/hams-langGraph-backend"]
+	path = 01.workspace/python/hams-langGraph-backend
+	url = https://github.com/Young-Hyun-Ham/hams-langGraph-backend.git
+[submodule "01.workspace/python/hams-stock-worker"]
+	path = 01.workspace/python/hams-stock-worker
+	url = https://github.com/Young-Hyun-Ham/hams-stock-worker.git
+[submodule "01.workspace/svelte-kit/hams-chat"]
+	path = 01.workspace/svelte-kit/hams-chat
+	url = https://github.com/Young-Hyun-Ham/hams-chat.git
+[submodule "01.workspace/svelte-kit/hams-health"]
+	path = 01.workspace/svelte-kit/hams-health
+	url = https://github.com/Young-Hyun-Ham/hams-health.git
+[submodule "01.workspace/svelte-kit/hams-langGraph-front"]
+	path = 01.workspace/svelte-kit/hams-langGraph-front
+	url = https://github.com/Young-Hyun-Ham/hams-langGraph-front.git
+[submodule "01.workspace/svelte-kit/hams-todos"]
+	path = 01.workspace/svelte-kit/hams-todos
+	url = https://github.com/Young-Hyun-Ham/hams-todos.git
+[submodule "01.workspace/svelte-kit/hams-wedding"]
+	path = 01.workspace/svelte-kit/hams-wedding
+	url = https://github.com/Young-Hyun-Ham/hams-wedding.git
+[submodule "99.reference/react-flow"]
+	path = 99.reference/react-flow
+	url = https://github.com/cutiefunny/react-flow.git
+[submodule "99.reference/open-webui"]
+	path = 99.reference/open-webui
+	url = https://github.com/open-webui/open-webui.git
+[submodule "99.reference/clt-chatbot"]
+	path = 99.reference/clt-chatbot
+	url = https://github.com/cutiefunny/clt-chatbot.git
+[submodule "99.reference/workflowbuilder"]
+	path = 99.reference/workflowbuilder
+	url = https://github.com/synergycodes/workflowbuilder.git
+[submodule "99.reference/continue"]
+	path = 99.reference/continue
+	url = https://github.com/continuedev/continue.git
+[submodule "99.reference/msa-project"]
+	path = 99.reference/msa-project
+	url = https://github.com/ysw1206/msa-project.git
+[submodule "99.reference/dify"]
+	path = 99.reference/dify
+	url = https://github.com/langgenius/dify.git
+[submodule "99.reference/mcp-server"]
+	path = 99.reference/mcp-server
+	url = https://github.com/modelcontextprotocol/servers.git
+[submodule "99.reference/n8n"]
+	path = 99.reference/n8n
+	url = https://github.com/n8n-io/n8n.git
+[submodule "99.reference/yt-assets"]
+	path = 99.reference/yt-assets
+	url = https://github.com/citizendev9c/yt-assets.git
