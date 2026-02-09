@@ -64,3 +64,6 @@
 [submodule "01.workspace/nextjs/clt-chatbot"]
 	path = 01.workspace/nextjs/clt-chatbot
 	url = https://github.com/Young-Hyun-Ham/clt-chatbot.git
+[submodule "01.workspace/svelte-kit/hams-diary"]
+	path = 01.workspace/svelte-kit/hams-diary
+	url = https://github.com/Young-Hyun-Ham/hams-diary.git
