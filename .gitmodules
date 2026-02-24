@@ -67,3 +67,24 @@
 [submodule "01.workspace/svelte-kit/hams-diary"]
 	path = 01.workspace/svelte-kit/hams-diary
 	url = https://github.com/Young-Hyun-Ham/hams-diary.git
+[submodule "01.workspace/python/hams-store-backend"]
+	path = 01.workspace/python/hams-store-backend
+	url = https://github.com/Young-Hyun-Ham/hams-store-backend.git
+[submodule "01.workspace/nextjs/hams-store-frontend"]
+	path = 01.workspace/nextjs/hams-store-frontend
+	url = https://github.com/Young-Hyun-Ham/hams-store-frontend.git
+[submodule "01.workspace/ai-assistant-project/hams-ai-sns"]
+	path = 01.workspace/ai-assistant-project/hams-ai-sns
+	url = https://github.com/Young-Hyun-Ham/hams-ai-sns.git
+[submodule "01.workspace/hams-family"]
+	path = 01.workspace/hams-family
+	url = https://github.com/Young-Hyun-Ham/hams-family.git
+[submodule "01.workspace/hams-ai-sns"]
+	path = 01.workspace/hams-ai-sns
+	url = https://github.com/Young-Hyun-Ham/hams-ai-sns.git
+[submodule "01.workspace/react-native/hams-family"]
+	path = 01.workspace/react-native/hams-family
+	url = https://github.com/Young-Hyun-Ham/hams-family.git
+[submodule "01.workspace/docker/hams-ai-sns"]
+	path = 01.workspace/docker/hams-ai-sns
+	url = https://github.com/Young-Hyun-Ham/hams-ai-sns.git

@@ -1,3 +1,5 @@
+깃 프로젝트 브랜치 설정
+Settings > Branches
 
 이미지에 표시된 Protect matching branches 섹션의 각 설정 항목은 저장소의 안정성을 유지하기 위한 핵심 보안 장치들입니다. 
 각 항목의 기능을 자세히 설명해 드릴게요.

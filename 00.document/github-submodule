@@ -1,0 +1,4 @@
+깃 서브 모듈 추가 방법
+ex)
+git submodule add https://github.com/Young-Hyun-Ham/hams-ai-sns.git 01.workspace/docker/hams-ai-sns
+git submodule add https://github.com/Young-Hyun-Ham/hams-family.git 01.workspace/react-native/hams-family
