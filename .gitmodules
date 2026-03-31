@@ -88,3 +88,6 @@
 [submodule "01.workspace/docker/hams-ai-sns"]
 	path = 01.workspace/docker/hams-ai-sns
 	url = https://github.com/Young-Hyun-Ham/hams-ai-sns.git
+[submodule "01.workspace/react/hams-neli-shop"]
+	path = 01.workspace/react/hams-neli-shop
+	url = https://github.com/Young-Hyun-Ham/hams-neli-shop.git
