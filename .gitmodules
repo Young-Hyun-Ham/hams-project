@@ -91,3 +91,6 @@
 [submodule "01.workspace/react/hams-neli-shop"]
 	path = 01.workspace/react/hams-neli-shop
 	url = https://github.com/Young-Hyun-Ham/hams-neli-shop.git
+[submodule "01.workspace/nextjs/hams-oauth"]
+	path = 01.workspace/nextjs/hams-oauth
+	url = https://github.com/Young-Hyun-Ham/hams-oauth.git
